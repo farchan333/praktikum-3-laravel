@@ -1,4 +1,4 @@
-@extends('layout.main')
+@extends('layout._main')
 @section('content')
-    <h1>Contact</h1>
+    @include('layout._content')
 @endsection

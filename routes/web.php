@@ -14,8 +14,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::redirect('/','/home');
-Route::view('/home','home',['namaHalaman'=>'home']);
-Route::view('/contact','contact',['namaHalaman'=>'contact']);
-Route::view('/about','about',['namaHalaman'=>'about']);
-//Route::view('nama_url','nama_file_blade',data_yang_dikirim);
 
+Route::view('/home','home',['namaHalaman'=>'Home']);
+Route::view('/contact','contact',['namaHalaman'=>'Contact']);
+Route::view('/about','about',['namaHalaman'=>'About']);
